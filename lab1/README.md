@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 1 - Deploy your mononith application using AWS Elastic Beanstalk
 
 ```
 mysql -u root --password=labpassword -h RDSInstanceAddress
