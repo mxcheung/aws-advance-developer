@@ -25,7 +25,7 @@ mysql>
 ```
 aws configure set profile.aws-lab-env.region us-west-1
 ```
-# Run locally
+# Task 4.1 - Configure the databse environment variables to Run locally
 ```
 Oct 25, 2023 2:38:21 AM org.apache.catalina.startup.Catalina start
 INFO: Server startup in [11,409] milliseconds
