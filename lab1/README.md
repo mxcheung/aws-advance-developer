@@ -25,6 +25,16 @@ mysql>
 ```
 aws configure set profile.aws-lab-env.region us-west-1
 ```
+# Run locally
+```
+Oct 25, 2023 2:38:21 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [11,409] milliseconds
+IndexController called
+Hibernate: select flightspec0_.id as id1_0_, flightspec0_.body as body2_0_, flightspec0_.cost as cost3_0_, flightspec0_.destination as destinat4_0_, flightspec0_.destinationCode as destinat5_0_, flightspec0_.expiryDate as expiryDa6_0_, flightspec0_.header as header7_0_, flightspec0_.origin as origin8_0_, flightspec0_.originCode as originCo9_0_ from flightspecial flightspec0_ where flightspec0_.expiryDate>1698201622400 order by flightspec0_.expiryDate
+Hibernate: select hotelspeci0_.id as id1_1_, hotelspeci0_.cost as cost2_1_, hotelspeci0_.description as descript3_1_, hotelspeci0_.expiryDate as expiryDa4_1_, hotelspeci0_.hotel as hotel5_1_, hotelspeci0_.location as location6_1_ from hotelspecial hotelspeci0_ where hotelspeci0_.expiryDate>1698201622947 order by hotelspeci0_.expiryDate
+ResponseQRCodeGenerator called
+```
+
 
 # UPLOAD CLOUDAIR WAR FILE TO AN AMAZON SIMPLE STORAGE SERVICE (AMAZON S3)
 ```
