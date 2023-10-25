@@ -20,3 +20,8 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> 
 ```
+
+
+```
+aws configure set profile.aws-lab-env.region us-west-1
+```
