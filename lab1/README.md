@@ -41,3 +41,22 @@ ResponseQRCodeGenerator called
 aws s3 mb s3://monolith-app-<YOUR-INITIALS>-<YOUR-ZIP> --profile aws-lab-env
 aws s3 mb s3://monolith-app-xxx-6789 --profile aws-lab-env
 ```
+
+https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/elasticbeanstalk/AWSElasticBeanstalk.html
+```
+aws configure set profile.aws-lab-env.region us-west-1
+aws configure set profile.aws-lab-env.aws_access_key_id AKIATKMC73Hxxxxxxxxxxxxxxx
+aws configure set profile.aws-lab-env.aws_secret_access_key oEvBF0MlV0brBnxxxxxxxxxxxxxxxxxxxxx
+aws s3 mb s3://monolith-app-xx-1234 --profile aws-lab-env
+aws s3api put-public-access-block --bucket  monolith-app-xx-1234 --public-access-block-configuration "BlockPublicPolicy=false,RestrictPublicBuckets=false"
+aws s3 cp C:\CloudAir\CloudAir_Java\target\cloudair.war s3://monolith-app-xx-1234 --profile aws-lab-env
+eb init --profile aws-lab-env
+https://monolith-app-xx-1234.s3.amazonaws.com/cloudair.war
+
+C:\CloudAir\CloudAir_Java\target\cloudair>
+C:\CloudAir\CloudAir_Java\target\cloudair>aws configure set profile.aws-lab-env.region us-west-1
+C:\CloudAir\CloudAir_Java\target\cloudair>aws configure set profile.aws-lab-env.aws_access_key_id AKIATKMC73Hxxxxxxxxxxxxxxx
+C:\CloudAir\CloudAir_Java\target\cloudair>aws configure set profile.aws-lab-env.aws_secret_access_key oEvBF0MlV0brBnxxxxxxxxxxxxxxxxxxxxx
+C:\CloudAir\CloudAir_Java\target\cloudair>aws s3 mb s3://monolith-app-xx-1234 --profile aws-lab-env
+make_bucket: monolith-app-xx-1234
+```
