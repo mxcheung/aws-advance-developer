@@ -25,3 +25,9 @@ mysql>
 ```
 aws configure set profile.aws-lab-env.region us-west-1
 ```
+
+# UPLOAD CLOUDAIR WAR FILE TO AN AMAZON SIMPLE STORAGE SERVICE (AMAZON S3)
+```
+aws s3 mb s3://monolith-app-<YOUR-INITIALS>-<YOUR-ZIP> --profile aws-lab-env
+aws s3 mb s3://monolith-app-xxx-6789 --profile aws-lab-env
+```
