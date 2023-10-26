@@ -79,6 +79,10 @@ C:\Users\ADMINI~1\AppData\Local\Temp\2>aws lambda update-function-code --functio
 
 ```
 
+
+# Task 4: Extend the code to delete non-image files and resize images
+
+
 # Task 5: Deploy the ImageManager Lambda function using an automation packge
 
 cd C:\temp\workdir\eclipse-workspace\TestLambda
