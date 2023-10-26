@@ -1,0 +1,1 @@
+# Advanced Developing on AWS - Lab 2 - Use AWS Lambda to develop microservicesThis lab will demonstrate how to use AWS Lambda in develping Microservices by experimenting with a function to resize images and delete non-image files.
