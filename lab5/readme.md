@@ -37,3 +37,6 @@ https://micbu5r7e5.execute-api.ap-southeast-2.amazonaws.com/prod/tripstocity/LA
 {"succeeded":true,"message":"","errorCode":0,"data":[{"date":1706169153000,"originCity":"Darwin","destinationCity":"LA","airline":"Qantas"},{"date":1698682143000,"originCity":"Newcastle","destinationCity":"LA","airline":"Qantas"}]
 
 
+# Task 5: Use CloudFormation/AWS Serverlist Application Model (AWS SAM) through the AWS CLI to deploy the HotelSearch microservice.
+
+
