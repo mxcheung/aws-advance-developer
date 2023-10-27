@@ -26,6 +26,10 @@ aws s3 cp . s3://microservices-lab4-mc-01890 --recursive --region us-west-1 --pr
 ```
 
 
+
+http://microservices-lab4-mc-01890.s3-website.us-west-1.amazonaws.com/
+
+
 # Task 2 - SQS publisher to SQS subscriber
 
 
