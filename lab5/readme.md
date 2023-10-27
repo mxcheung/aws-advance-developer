@@ -40,3 +40,5 @@ https://micbu5r7e5.execute-api.ap-southeast-2.amazonaws.com/prod/tripstocity/LA
 # Task 5: Use CloudFormation/AWS Serverlist Application Model (AWS SAM) through the AWS CLI to deploy the HotelSearch microservice.
 
 
+http://labstack-23d03e98-8142-4c90-ba2f-s3bucketwebsite-1epw4wjzfef5.s3-website-ap-southeast-2.amazonaws.com/#/
+
