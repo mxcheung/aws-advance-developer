@@ -1,0 +1,1 @@
+# Advanced Developing on AWS - Lab 4 - Exploring the AWS messaging optionsThis lab will demonstrate how to use the available AWS messaging services in developing Microservices, and experiment using the AWS SDKs (Java).
