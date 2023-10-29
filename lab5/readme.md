@@ -42,3 +42,8 @@ https://micbu5r7e5.execute-api.ap-southeast-2.amazonaws.com/prod/tripstocity/LA
 
 http://labstack-23d03e98-8142-4c90-ba2f-s3bucketwebsite-1epw4wjzfef5.s3-website-ap-southeast-2.amazonaws.com/#/
 
+
+http://links.312.cloud/
+
+https://us-east-1.student.classrooms.aws.training/class/5hmwNtK5NJLEq86hrWbwqm
+
