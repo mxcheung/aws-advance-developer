@@ -45,5 +45,9 @@ http://labstack-23d03e98-8142-4c90-ba2f-s3bucketwebsite-1epw4wjzfef5.s3-website-
 
 http://links.312.cloud/
 
+Advanced Developer
 https://us-east-1.student.classrooms.aws.training/class/5hmwNtK5NJLEq86hrWbwqm
 
+
+Developer
+https://us-east-1.student.classrooms.aws.training/class/9Utz9RpFfwYYg3D2dpnkAM
